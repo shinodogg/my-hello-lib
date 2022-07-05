@@ -1,0 +1,26 @@
+{
+  "name": "@shinodogg/my-hello-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "rimraf dist",
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/shinodogg"
+  },
+  "keywords": [],
+  "author": "Eiji Shinohara <eiji@algolia.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.0.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
